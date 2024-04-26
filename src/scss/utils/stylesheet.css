@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/AnyConv.com__Manrope-SemiBold.woff") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/AnyConv.com__Manrope-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}

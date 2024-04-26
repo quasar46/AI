@@ -1,0 +1,117 @@
+// @import "utils/stylesheet";
+// @import "./node_modules/normalize.css/normalize";
+
+// @import "mixins/media";
+// @import "utils/variables";
+@import "utils/swiper-bundle.min";
+
+:root {
+  --blue: #006aff;
+  --black: #091d37;
+  --orange: #ff9f0b;
+  --grey: #a6b4c7;
+  --color-arr: #006aff;
+}
+
+*,
+*::before,
+*::after {
+  border: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--black);
+  font-family: "Manrope", sans-serif;
+  &.hidden {
+    overflow: hidden;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.3s ease;
+  &:hover {
+    transition: opacity 0.3s ease;
+    opacity: 0.7;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+button {
+  padding: 0;
+  background-color: transparent;
+}
+
+ul,
+ol {
+  li {
+    list-style: none;
+  }
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 1 auto;
+}
+
+._container {
+  max-width: 1240px;
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+section {
+  padding: 80px 0;
+  @media (max-width: 767px) {
+    padding: 30px 0;
+  }
+}
+
+.vectors {
+  display: none;
+}

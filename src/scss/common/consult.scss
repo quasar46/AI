@@ -1,0 +1,31 @@
+.consult {
+  background-color: var(--blue);
+  max-width: 605px;
+  width: 100%;
+  min-height: 400px;
+  border-radius: 16px;
+  color: #fff;
+  padding: 24px;
+  img {
+    margin-bottom: 32px;
+  }
+}
+
+.consult__btn {
+  background-color: #fff;
+  color: var(--blue);
+  font-size: 28px;
+  font-weight: 600;
+  min-height: 72px;
+  border-radius: 16px;
+  width: 100%;
+  @media (max-width: 767px) {
+    font-size: 20px;
+  }
+}
+
+.consult__text {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 48px;
+}

@@ -1,0 +1,28 @@
+.title {
+  margin-bottom: 64px;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 70px;
+  @media (max-width: 767px) {
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 20px;
+  }
+}
+
+.steps__title {
+  color: #fff;
+  max-width: 890px;
+}
+
+.header__title {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 52px;
+  margin-bottom: 40px;
+  max-width: 698px;
+  @media (max-width: 767px) {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
